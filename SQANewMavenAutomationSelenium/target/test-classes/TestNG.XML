@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Group of group Suite" verbose="1">
+
+<parameter name="BrowserName" value="firefox"/> 
+<test name="Test1">
+<classes>
+<class name="com.guru99.tests.TestGuru99HomePage" >
+<!--  
+<methods>
+ 
+<include name="testUserRegistration"/>
+
+
+<include name ="testuserLogin"/>
+
+</methods>
+-->
+</class>
+</classes>
+</test>
+</suite>

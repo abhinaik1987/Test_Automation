@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Group of group Suite" verbose="1">
+<!--  
+  <test name="Group of group Test">
+  
+    <classes>
+     
+<class name="com.Week1.Day3.examples.test.TestComputeSum" />
+<class name="com.Week1.Day3.examples.TestNG.groups.TestGroups" />
+-->
+<parameter name="first-name" value="Cedric"/>
+<test name="SimpleParamExample">
+  
+    <classes>
+     
+<class name="com.examples.testng.parameters.testparameters" />
+
+    </classes>
+  </test>
+  </suite>

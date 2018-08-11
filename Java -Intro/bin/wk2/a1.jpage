@@ -1,0 +1,7 @@
+System.out.println(" Hello World");
+
+
+byte b =5;
+System.out.println(b);
+
+System.out.println("Are these primitives equal: " + (5==4+1) );

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group of group Suite" duration-ms="18342" started-at="2018-08-11T10:25:43Z" finished-at="2018-08-11T10:26:01Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="18342" started-at="2018-08-11T10:25:43Z" finished-at="2018-08-11T10:26:01Z">
+      <class name="com.guru99.tests.TestGuru99HomePage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.guru99.tests.TestGuru99HomePage@50f8360d]" name="setup" is-config="true" duration-ms="17704" started-at="2018-08-11T10:25:43Z" finished-at="2018-08-11T10:26:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_Home_Page_DashBoard_UserName()[pri:0, instance:com.guru99.tests.TestGuru99HomePage@50f8360d]" name="test_Home_Page_DashBoard_UserName" duration-ms="485" started-at="2018-08-11T10:26:01Z" finished-at="2018-08-11T10:26:01Z">
+        </test-method>
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.guru99.tests.TestGuru99HomePage@50f8360d]" name="teardown" is-config="true" duration-ms="137" started-at="2018-08-11T10:26:01Z" finished-at="2018-08-11T10:26:01Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

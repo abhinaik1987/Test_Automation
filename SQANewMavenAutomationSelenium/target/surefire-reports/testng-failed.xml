@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Group of group Suite]">
+  <parameter name="BrowserName" value="chrome"/>
+  <test name="Test1(failed)" preserve-order="true">
+    <parameter name="BrowserName" value="chrome"/>
+    <classes>
+      <class name="com.guru99.tests.TestGuru99HomePage">
+        <methods>
+          <include name="Steps_To_Generate_Access"/>
+          <include name="checkCreateAccountisEnabled"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
